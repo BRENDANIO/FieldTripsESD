@@ -1,3 +1,153 @@
+@media (max-width: 972px) {
+
+    .top-header {
+        overflow: hidden;
+        background-color: #006633;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .top-header-image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .top-header-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 35px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+        text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+    }
+    
+    .top-header-bottom {
+        overflow: hidden;
+        background-color: #333;
+        padding: 5px;
+    }
+    
+    .searchButtons {
+        display: block;
+        width: 100%;
+        background: linear-gradient(to bottom, #333, #333 50%, #444 50%, #444);
+        border-color: black;
+        color: whitesmoke;
+        font-size: x-large;
+    }
+    
+    .searchButtons:hover {
+        background: rgb(158, 158, 158);
+    }
+    
+    body {
+        background-image: url("../assets/Diagonal-Bricks-Grey-Seamless-Pattern-For-Website-Background.jpg");
+        background-size:contain;
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .custom-border {
+        border: 1px solid #333;
+    }
+    
+    .back-button {
+        background-color: #333;
+        border-radius: 35px;
+        border: black 2px solid;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .field-trip-title {
+        background-color: #222;
+        border-radius: 35px;
+        border-style: inset;
+        display: flex;
+        align-items: center;
+        float: left;
+        color: white;
+        margin-bottom: 15px;
+        padding: 0px 20px;
+        width: fit-content;
+    }
+    
+    #field-trip-title-size {
+        font-size: 45px;
+    }
+    
+    .field-trip-address {
+        height:fit-content;
+        align-self: center;
+        background-color: #222;
+        border-radius: 15px;
+        border-style: inset;
+        display: flex;
+        align-items: center;
+        float: right;
+        color: white;
+        padding: 5px 20px;
+        width: fit-content;
+    }
+    
+    .field-trip-stats-table {
+        background-color: #222;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    
+    .field-trip-stats-table-item {
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .list-color-one {
+        background-color: #333;
+    }
+    
+    .list-color-two {
+        background-color: #444;
+    }
+    
+    .image-grid {
+        border: 10px solid #333;
+        color: whitesmoke;
+        padding: 10px;
+        margin: 20px;
+    }
+    
+    .image-grid img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    
+    .recommended-route {
+        background-color: #222;
+        border-radius: 15px;
+        border-style: inset;
+        padding: 2px 10px;
+        display: flex;
+        color: white;
+        width: fit-content;
+    }
+    
+    #recommended-route-size {
+        font-size: 35px;
+    }
+
+}
+
+@media (min-width: 973px) {
+
 .top-header {
     overflow: hidden;
     background-color: #006633;
@@ -7,7 +157,7 @@
 }
 
 .top-header-image {
-    width: 75px;
+    width: 100px;
     height: 100px;
     display: flex;
     align-items: flex-start;
@@ -47,7 +197,7 @@
 body {
     background-image: url("../assets/Diagonal-Bricks-Grey-Seamless-Pattern-For-Website-Background.jpg");
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255);
 }
 
 .custom-border {
@@ -70,14 +220,15 @@ body {
 }
 
 .field-trip-title {
-    display: flex;
-    justify-content: center;
-    align-content: center;
     background-color: #222;
     border-radius: 35px;
     border-style: inset;
+    display: flex;
+    align-items: center;
+    float: left;
     color: white;
-    padding: 5px 20px;
+    padding: 0px 20px;
+    margin: 10px;
     width: fit-content;
 }
 
@@ -121,10 +272,10 @@ body {
 }
 
 .image-grid {
-    border: 1px solid #333;
+    border: 10px solid #333;
     color: whitesmoke;
     padding: 10px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .image-grid img {
@@ -147,3 +298,4 @@ body {
     font-size: 35px;
 }
 
+}
