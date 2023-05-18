@@ -1,0 +1,32 @@
+@media print {
+    body {
+      font-size: 12pt;
+      line-height: 1.5;
+      color: black;
+      background-color: white;
+    }
+  
+    .top-header-image img {
+      display: none;
+    }
+  
+    .top-header-title {
+      font-size: 24pt;
+      padding-left: 0;
+    }
+  
+    .searchButtons {
+      font-size: 16pt;
+      color: black;
+      background-color: white;
+    }
+  
+    .searchButtons:hover {
+      background-color: gray;
+      color: white;
+    }
+  
+    .back-button {
+      display: none;
+    }
+  }

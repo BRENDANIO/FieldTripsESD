@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>ESD Field Trip Plans</title>
+
+        <!--Need to include our CSS-->
+        <link rel="stylesheet" href="css/FieldTripStyle.css"> 
+
+    </head>
+
+    <body>
+        <div class="top-header">
+            <div class = "top-header-image">
+                <img src="images/ESD-Logo-NoBG.png" alt="Evergreen School Division Logo" width="100">
+            </div>
+            <div class="top-header-title">
+                ESD Field Trips
+            </div>
+        </div>
+        <div class="top-header-bottom"></div>
+        <div class="container-fullwidth mx-lg-5 mt-5">
+            <div class="card border border-5 bg-dark" >
+                <div class="card-header"></div>
+                <div class="card-body" style="background: #006633;">
+                    
+                    <div class="container">
+                        <h3 style="color: #ffffffff; text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;">Search/Select the desired Field Trip</h3>
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="search-input" placeholder="Search...">
+                        </div>
+                        <ul class="list-group" id="list" style="background: linear-gradient(to bottom, #006633, #e6e6e6); padding-top: 20px;">
+                          <li class="list-group-item">
+                            <a href="html/MasterPage.html" class="btn searchButtons btn-block">Master Page</a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="https://example.com/link1" class="btn searchButtons btn-block border-dark">Human Rights Mueseum</a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="https://example.com/link2" class="btn searchButtons btn-block border-dark">University of Manitoba</a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="html/ChildrensMuseum.html" class="btn searchButtons btn-block border-dark">Children's Museum</a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="https://example.com/link4" class="btn searchButtons btn-block border-dark">Arborg Collegiate</a>
+                          </li>
+                          <li class="list-group-item">
+                            <a href="https://example.com/link5" class="btn searchButtons btn-block">University of Winnipeg</a>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script src="javascript/searchButtons.js"></script>
