@@ -1,5 +1,15 @@
 @media (max-width: 972px) {
 
+    .site-header {
+        background: rgb(1,164,60);
+        background: radial-gradient(circle, rgba(1,164,60,1) 0%, rgba(0,102,51,1) 100%);
+    }
+
+    .card-body-header {
+        background: rgb(0,102,51);
+        background: linear-gradient(133deg, rgba(0,102,51,1) 0%, rgba(0,172,68,1) 50%, rgba(0,102,51,1) 100%);   
+    }
+
     .top-header {
         overflow: hidden;
         background-color: #006633;
@@ -45,8 +55,13 @@
     
     body {
         background-image: url("../assets/Diagonal-Bricks-Grey-Seamless-Pattern-For-Website-Background.jpg");
-        background-size:contain;
+        background-size: contain;
         background-color: rgb(255, 255, 255);
+    }
+
+    .container-fullwidth {
+        padding-left: 0;
+        padding-right: 0;
     }
     
     .custom-border {
@@ -119,7 +134,7 @@
     
     .image-grid {
         border: 10px solid #333;
-        color: whitesmoke;
+        color: #f5f5f5;
         padding: 10px;
         margin: 20px;
     }
@@ -134,6 +149,7 @@
         background-color: #222;
         border-radius: 15px;
         border-style: inset;
+        text-align: center;
         padding: 2px 10px;
         display: flex;
         color: white;
@@ -144,158 +160,242 @@
         font-size: 35px;
     }
 
+    .additional-items {
+        background-color: #222;
+        border-radius: 30px;
+        border-style: inset;
+        text-align: center;
+        padding: 2px 15px;
+        display: flex;
+        color: white;
+        width: fit-content;
+    }
+    
+    #additional-items-size {
+        font-size: 35px;
+    }
+
+    .list-group-item {
+        border: 3px solid #888;
+        font-size: 20px !important;
+    }
+
+    .list-group-header {
+        border: 3px solid #888;
+        background-color: #555;
+        text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+        color: whitesmoke;
+        padding: 2px 15px;
+    }
+
+    .mb-0 {
+        font-size: 35px;
+        padding: 10px 0px;
+    }
+
+    #list-group-header {
+        font-size: 30px;
+    }
+
 }
 
 @media (min-width: 973px) {
 
-.top-header {
-    overflow: hidden;
-    background-color: #006633;
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-}
+    .site-header {
+        background: rgb(0,102,51);
+        background: linear-gradient(133deg, rgba(0,102,51,1) 0%, rgba(0,172,68,1) 50%, rgba(0,102,51,1) 100%); 
+    }
 
-.top-header-image {
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: flex-start;
-}
+    .card-body-header {
+        background: rgb(0,102,51);
+        background: linear-gradient(133deg, rgba(0,102,51,1) 0%, rgba(0,172,68,1) 50%, rgba(0,102,51,1) 100%);   
+    }
 
-.top-header-title {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 70px;
-    font-style: italic;
-    font-weight: bold;
-    color: whitesmoke;
-    flex: 1;
-    padding-left: 70px;
-    text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
-}
+    .top-header {
+        overflow: hidden;
+        background-color: #006633;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
 
-.top-header-bottom {
-    overflow: hidden;
-    background-color: #333;
-    padding: 5px;
-    display: flex;
-}
+    .top-header-image {
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: flex-start;
+    }
 
-.searchButtons {
-    display: block;
-    width: 100%;
-    background: linear-gradient(to bottom, #333, #333 50%, #444 50%, #444);
-    border-color: black;
-    color: whitesmoke;
-    font-size: x-large;
-}
+    .top-header-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 70px;
+        font-style: italic;
+        font-weight: bold;
+        color: whitesmoke;
+        flex: 1;
+        padding-left: 70px;
+        text-shadow: -2px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+    }
 
-.searchButtons:hover {
-    background: rgb(158, 158, 158);
-}
+    .top-header-bottom {
+        overflow: hidden;
+        background-color: #333;
+        padding: 5px;
+        display: flex;
+    }
 
-body {
-    background-image: url("../assets/Diagonal-Bricks-Grey-Seamless-Pattern-For-Website-Background.jpg");
-    background-size: cover;
-    background-color: rgb(255, 255, 255);
-}
+    .searchButtons {
+        display: block;
+        width: 100%;
+        background: linear-gradient(to bottom, #333, #333 50%, #444 50%, #444);
+        border-color: black;
+        color: whitesmoke;
+        font-size: x-large;
+    }
 
-.custom-border {
-    border: 1px solid #333;
-}
+    .searchButtons:hover {
+        background: rgb(158, 158, 158);
+    }
 
-.back-button {
-    background-color: #333;
-    border-radius: 35px;
-    border: black 2px solid;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    margin: 30px 30px;
-    cursor: pointer;
-    float:right;
-}
+    body {
+        background-image: url("../assets/Diagonal-Bricks-Grey-Seamless-Pattern-For-Website-Background.jpg");
+        background-size: cover;
+        background-color: rgb(255, 255, 255);
+    }
 
-.field-trip-title {
-    background-color: #222;
-    border-radius: 35px;
-    border-style: inset;
-    display: flex;
-    align-items: center;
-    float: left;
-    color: white;
-    padding: 0px 20px;
-    margin: 10px;
-    width: fit-content;
-}
+    .custom-border {
+        border: 1px solid #333;
+    }
 
-#field-trip-title-size {
-    font-size: 45px;
-}
+    .back-button {
+        background-color: #333;
+        border-radius: 35px;
+        border: black 2px solid;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 30px 30px;
+        cursor: pointer;
+        float:right;
+    }
 
-.field-trip-address {
-    height:fit-content;
-    align-self: center;
-    background-color: #222;
-    border-radius: 15px;
-    border-style: inset;
-    display: flex;
-    align-items: center;
-    float: right;
-    color: white;
-    padding: 5px 20px;
-    width: fit-content;
-}
+    .field-trip-title {
+        background-color: #222;
+        border-radius: 35px;
+        border-style: inset;
+        display: flex;
+        align-items: center;
+        float: left;
+        color: white;
+        padding: 0px 20px;
+        margin: 10px;
+        width: fit-content;
+    }
 
-.field-trip-stats-table {
-    background-color: #222;
-    font-size: 20px;
-    color: whitesmoke;
-}
+    #field-trip-title-size {
+        font-size: 45px;
+    }
 
-.field-trip-stats-table-item {
-    color: whitesmoke;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-}
+    .field-trip-address {
+        height:fit-content;
+        align-self: center;
+        background-color: #222;
+        border-radius: 15px;
+        border-style: inset;
+        display: flex;
+        align-items: center;
+        float: right;
+        color: white;
+        padding: 5px 20px;
+        width: fit-content;
+    }
 
-.list-color-one {
-    background-color: #333;
-}
+    .field-trip-stats-table {
+        background-color: #222;
+        font-size: 20px;
+        color: whitesmoke;
+    }
 
-.list-color-two {
-    background-color: #444;
-}
+    .field-trip-stats-table-item {
+        color: whitesmoke;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
 
-.image-grid {
-    border: 10px solid #333;
-    color: whitesmoke;
-    padding: 10px;
-    margin: 20px;
-}
+    .list-color-one {
+        background-color: #333;
+    }
 
-.image-grid img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-}
+    .list-color-two {
+        background-color: #444;
+    }
 
-.recommended-route {
-    background-color: #222;
-    border-radius: 15px;
-    border-style: inset;
-    padding: 2px 10px;
-    display: flex;
-    color: white;
-    width: fit-content;
-}
+    .image-grid {
+        border: 10px solid #333;
+        color: whitesmoke;
+        padding: 10px;
+        margin: 20px;
+    }
 
-#recommended-route-size {
-    font-size: 35px;
-}
+    .image-grid img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .recommended-route {
+        background-color: #222;
+        border-radius: 15px;
+        border-style: inset;
+        padding: 2px 10px;
+        display: flex;
+        color: white;
+        width: fit-content;
+    }
+
+    #recommended-route-size {
+        font-size: 35px;
+    }
+
+    .additional-items {
+        background-color: #222;
+        border-radius: 30px;
+        border-style: inset;
+        text-align: center;
+        padding: 2px 15px;
+        display: flex;
+        color: white;
+        width: fit-content;
+    }
+
+    #additional-items-size {
+        font-size: 35px;
+    }
+
+    .list-group-item {
+        border: 3px solid #888;
+        font-size: 20px !important;
+    }
+
+    .list-group-header {
+        border: 3px solid #888;
+        background-color: #555;
+        text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+        color: whitesmoke;
+        padding: 2px 15px;
+    }
+
+    .mb-0 {
+        font-size: 35px;
+        padding: 10px 0px;
+    }
+
+    #list-group-header {
+        font-size: 30px;
+    }
 
 }
