@@ -1,5 +1,10 @@
 @media (max-width: 972px) {
 
+    .body-wrapper {
+        overflow-x: hidden;
+        position: relative;
+    }
+
     .site-header {
         background: rgb(1,164,60);
         background: radial-gradient(circle, rgba(1,164,60,1) 0%, rgba(0,102,51,1) 100%);
@@ -60,6 +65,7 @@
     }
 
     .container-fullwidth {
+        display: flex;
         padding-left: 0;
         padding-right: 0;
     }
@@ -199,6 +205,11 @@
 }
 
 @media (min-width: 973px) {
+
+    .body-wrapper {
+        overflow-x: hidden;
+        position: relative;
+    }
 
     .site-header {
         background: rgb(0,102,51);
