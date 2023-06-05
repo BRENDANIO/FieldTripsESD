@@ -16,20 +16,59 @@
       display: none;
     }
 
+    #field-trip-title-size {
+      font-size: 15px;
+    }
+
     .top-header-bottom {
       display: none !important;
     }
 
+    .card-body {
+      margin: 0;
+      padding: 5px;
+    }
+
     .field-trip-title {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      flex: wrap;
+      height:fit-content;
+      align-items: center !important;
       border-color: black;
+      text-align: center !important;
+      border-radius: 15px;
+      box-sizing: border-box;
       color: black !important;
-      font-size: 50px;
+      padding: 5px 5px;
+      margin-bottom: 0;
     }
 
     .field-trip-address {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      height:fit-content;
+      flex: wrap;
+      align-items: center;
+      box-sizing: border-box;
       border-color: black;
       color: black !important;
-      font-size: 50px;
+      text-align: center !important;
+      padding: 5px 5px;
+    }
+
+    #field-trip-address-size {
+      font-size: 15px;
+    }
+
+    .field-trip-stats-table {
+      font-size: 10px;
+    }
+
+    .text-center {
+      font-size: 10px !important;
     }
 
     .bg-dark {
@@ -65,17 +104,28 @@
     }
 
     .image-grid img {
-      width: 100%;
+      justify-self: center;
+      width: 200px;
       height: auto;
     }
     .image-grid {
-      border: 4px solid black;
-      justify-content: center;
+      border: 5px solid black;
     }
 
     .col-md-6 {
       flex: 0 0 auto;
       width: 50%;
+      display: flex; 
+      flex-direction: column; 
+      align-items: center;
+    }
+
+    .border-bottom {
+      font-size: 10px !important;
+    }
+
+    #recommended-route-size {
+      font-size: 15px;
     }
 
     h2 {
@@ -91,10 +141,13 @@
     }
 
     .recommended-route {
+      margin: 0;
       border-color: #000;
     }
 
     .list-group-item {
+      font-size: 10px !important;
+      border-color: #000 !important;
       color: #000 !important;
     }
 
@@ -102,8 +155,13 @@
       border-color: #000 !important;
     }
 
+    #additional-items-size {
+      font-size: 15px !important;
+    }
+
     .list-group-header {
       color: #000 !important;
+      padding: 0;
       text-shadow: none;
     }
 
@@ -112,11 +170,32 @@
     }
 
     .list-group {
+      border: #000;
+      padding-bottom: 5px !important;
+      padding: 5px;
+    }
+
+    .mb-0 {
+      font-size: 10px !important;
       padding: 5px;
     }
 
     .card {
       margin: 5px;
     }
+
+    .print-only {
+      display: block !important;
+    }
+
+    .line-container {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .line {
+      border-bottom: 1px solid black;
+      margin: 8px 5px;
+    }    
 
   }
