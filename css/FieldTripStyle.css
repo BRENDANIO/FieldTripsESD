@@ -201,6 +201,10 @@
     #list-group-header {
         font-size: 30px;
     }
+    
+    .print-only {
+        display: none !important;
+    }
 
 }
 
@@ -406,6 +410,10 @@
 
     #list-group-header {
         font-size: 30px;
+    }
+    
+    .print-only {
+        display: none !important;
     }
 
 }
