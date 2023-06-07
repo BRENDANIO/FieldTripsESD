@@ -105,7 +105,7 @@
 
     .image-grid img {
       justify-self: center;
-      width: 200px;
+      width: 100%;
       height: auto;
     }
     .image-grid {
