@@ -5,7 +5,7 @@
     }
 
     .top-header {
-      margin: 5px !important;
+      display: none;
     }
 
     .top-header-image {
@@ -181,7 +181,7 @@
     }
 
     .card {
-      margin: 5px;
+      margin: 0 !important;
     }
 
     .print-only {
