@@ -65,6 +65,13 @@
 
     .field-trip-stats-table {
       font-size: 10px;
+      color: black;
+      border-color: #000;
+    }
+    
+    .field-trip-stats-table-item {
+      color: black;
+      border-color: #000;
     }
 
     .text-center {
@@ -121,6 +128,7 @@
     }
 
     .border-bottom {
+      border-bottom: 3px solid #000 !important;
       font-size: 10px !important;
     }
 
